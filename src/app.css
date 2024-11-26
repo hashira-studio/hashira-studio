@@ -1,0 +1,19 @@
+@import url('https://fonts.cdnfonts.com/css/neue-montreal');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: black;
+    color: white;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+::selection {
+  background: rgba(255, 255, 255, 0.1);
+}
